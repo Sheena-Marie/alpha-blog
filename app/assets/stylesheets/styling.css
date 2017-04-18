@@ -1,0 +1,82 @@
+/* Main elements styling */
+body {
+  background-color: #051B39;
+}
+
+hr {
+  border: 1px solid #2A4770;
+}
+
+h1 {
+  color: #7087A6;
+}
+
+p {
+  color: #7087A6;
+}
+
+/* General Headings */
+.heading {
+  text-align: center;
+}
+
+/* BUTTONS
+
+Standard buttons - using the default bootstrap button with personal styling */
+.btn-link {
+  background-color: #48648A;
+  border-radius: 5px;
+  color: #051B39;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  background-color: #142F55;
+  color: #7087A6;
+}
+
+.btn-delete {
+  background-color: #4D0019;
+  border-style: none;
+  border-radius: 5px;
+  color: #E191AB;
+}
+
+.btn-delete:hover {
+  text-decoration: none;
+  background-color: #E191AB;
+  color: #4D0019;
+}
+
+.btn-show {
+  background-color: #244D00;
+  border-style: none;
+  border-radius: 5px;
+  color: #FDDBA3;
+}
+
+.btn-show:hover {
+  text-decoration: none;
+  background-color: #FDDBA3;
+  color: #563600;
+}
+
+/* Error Messages */
+.error {
+  color: #2A4770;
+}
+
+/* The font colour for Articles form */
+.art-form {
+  color: #7087A6;
+}
+
+/* Table formatting */
+
+.tbl-heading {
+  color: #2A4770;
+}
+
+.tbl-font {
+  color: #7087A6
+}

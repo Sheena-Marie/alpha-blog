@@ -1,0 +1,9 @@
+<!-- Page to show an individual article -->
+<h1>Showing Selected Article</h1>
+
+<p>Title: <%= @article.title %></p>
+<br>
+<p>Description: <%= @article.description %></p>
+
+<%= link_to 'Edit Article', edit_article_path(@article) %> ||
+<%= link_to 'Back to articles listing', articles_path %>
